@@ -1,0 +1,65 @@
+body {
+   background-color: #fce4ec;
+   color: #333;
+   font-family: Arial, sans-serif;
+   margin: 20px;
+}
+h1 {
+    text-align: center;
+    color: #6d4c5b;
+}
+img {
+    display: block;
+    margin: 15px auto;
+    width: 200px;
+    border-radius: 10px;
+}
+h2, h3 {
+    color: #9b5c6b;
+}
+p {
+    line-height: 1.6;
+}
+ul {
+    padding: 15px 30px;
+    border: 1px solid #d8a7b1;
+    border-radius: 8px;
+    background-color: #fff5f7;
+
+}
+strong{
+    color: #9b5c6b;
+}
+.dark-mode {
+    background-color: #26354a;
+    color: #ffffff;
+}
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3 {
+    color: #ffd6e7;
+}
+.dark-mode ul {
+    background-color: #5b6f8a;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.dark-mode p {
+    background-color: #5b6f8a;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+#about, #goal {
+    background-color: #fff5f7;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #d8a7b1;
+}
+.dark-mode #about,
+.dark-mode #goal {
+    background-color: #5b6f8a;
+    color: white;
+    padding: 15px;
+    border: 2px solid #9fb3cc;
+    border-radius: 10px;
+}
