@@ -1,65 +1,66 @@
-body {
-   background-color: #fce4ec;
-   color: #333;
+body{
+   background-color: pink;
+   color: black;
    font-family: Arial, sans-serif;
    margin: 20px;
 }
-h1 {
-    text-align: center;
-    color: #6d4c5b;
-}
-img {
-    display: block;
-    margin: 15px auto;
-    width: 200px;
+#about,#goal{
+    border-style: solid;
+    background-color: white;
+    width: auto;
+    padding: 20px;
+    margin-left: 50px;
+    color: black;
     border-radius: 10px;
 }
-h2, h3 {
-    color: #9b5c6b;
+#box{
+    border-style: solid;
+    background-color: white;
+    margin-left: 50px;
+    color: black;
+    border-radius: 10px;
 }
-p {
-    line-height: 1.6;
+li{
+    background-color: white;
+    color: black;
 }
-ul {
-    padding: 15px 30px;
-    border: 1px solid #d8a7b1;
-    border-radius: 8px;
-    background-color: #fff5f7;
+ul{
+    background-color: white;
 
 }
 strong{
-    color: #9b5c6b;
+    background-color: white;
+    color: black;
 }
 .dark-mode {
-    background-color: #26354a;
-    color: #ffffff;
+    background-color: purple;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
-.dark-mode h1,
-.dark-mode h2,
-.dark-mode h3 {
-    color: #ffd6e7;
-}
-.dark-mode ul {
-    background-color: #5b6f8a;
-    padding: 15px 30px;
-    border-radius: 10px;
-}
-.dark-mode p {
-    background-color: #5b6f8a;
-    padding: 15px 20px;
-    border-radius: 10px;
-}
-#about, #goal {
-    background-color: #fff5f7;
-    padding: 15px;
-    border-radius: 10px;
-    border: 2px solid #d8a7b1;
-}
+
 .dark-mode #about,
 .dark-mode #goal {
-    background-color: #5b6f8a;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 15px;
-    border: 2px solid #9fb3cc;
+    border-style: solid;
+    border-color: black;
     border-radius: 10px;
+}
+.dark-mode strong{
+    background-color: white;
+    color: red;
+}
+.dark-mode div{
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border: black;
+}
+.dark-mode li{
+    background-color: white;
+}
+.dark-mode ul{
+    background-color: white;
 }
